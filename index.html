@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <title>
+        Ma table de multiplication
+    </title>
+    <meta charset="utf8">
+    <script type="text/javascript" src="script.js"></script>
+    <LINK rel=stylesheet type="text/css" href="style.css">
+
+
+</head>
+
+<body>
+    <center>
+        <h1>Table de multiplication</h1>
+        <hr><br>
+        <form name="form1" id='F1'>
+            <table class="formTable" border="2" width=30%>
+                <tr class="formEnt">
+                    <td width=70%>
+                        <h3>
+                            <center>Choisir un entier de la liste :</center>
+                        </h3>
+                    </td>
+                    <td align=center>
+                        <select name="entier">
+                            <option value=1>1</option>
+                            <option value=2>2</option>
+                            <option value=3>3</option>
+                            <option value=4>4</option>
+                            <option value=5>5</option>
+                            <option value=6>6</option>
+                            <option value=7>7</option>
+                            <option value=8>8</option>
+                            <option value=9>9</option>
+                            <option value=10>10</option>
+                        </select>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align=center>
+                        <textarea name="affTable" cols="55" rows="15" onfocus="calculer();">
+								Afficher table de multiplication
+							</textarea>
+                    </td>
+                </tr>
+
+            </table>
+
+        </form>
+    </center>
+</body>
+
+</html>
